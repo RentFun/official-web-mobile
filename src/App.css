@@ -1,0 +1,12 @@
+.App {
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background: #44265e;
+  font-family: Plus Jakarta Sans;
+  position: relative;
+}
