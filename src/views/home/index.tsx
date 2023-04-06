@@ -61,7 +61,7 @@ const menuLst: menuText[] = [
     }
 ];
 const THead:React.FC<HomePropsType> = () => {
-    const [ menuFlag, setMenuFlag ] = useState<boolean>(false);
+    const [ menuFlag, setMenuFlag ] = useState<boolean>(true);
     const className = (menu: any):string => {
         let className = 't-menu';
         if(menu.ac)
