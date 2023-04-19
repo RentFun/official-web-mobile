@@ -37,9 +37,9 @@ const menuLst: menuText[] = [
     },
     {
         text: 'WonderBird',
-        subText: 'COMING SOON',
+        subText: '',
         ac: false,
-        url: '',
+        url: '/wonderbird',
     },
     {
         text: 'Docs',
