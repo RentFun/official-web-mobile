@@ -19,7 +19,10 @@ const openUrl = (url: string):void => {
         window.open(url, '_blank');
 }
 
-
+const openUrlSelf = (url:any):void => {
+    if(url)
+        window.open(url, '_self');
+}
 
 interface menuText {
     [key: string]: any,
@@ -81,7 +84,7 @@ const THead:React.FC<HomePropsType> = () => {
                     {
                         menuLst.map((item: menuText) => {
                             return <div key={'menu'+ item.text} className={className(item)}>
-                            <span onClick={openUrl.bind(this, item.url)}>
+                            <span onClick={openUrlSelf.bind(this, item.url)}>
                                 {item.text}
                                 <span className="t-sub-text">{item.subText}</span>
                             </span>
