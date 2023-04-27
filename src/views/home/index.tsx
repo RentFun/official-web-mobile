@@ -354,6 +354,10 @@ const section5Data: section5Item[] = [
         icon: require('./images/s5/10.png'),
         url: 'https://twitter.com/_martialfarts',
     },
+    {
+        icon: require('./images/s5/11.png'),
+        url: 'https://twitter.com/CryptoAfu',
+    },
 ];
 const TSection5 = (forwardRef((props:ChildPropsType, ref:any) => {
     const { animation } = props;
