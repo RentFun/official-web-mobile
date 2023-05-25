@@ -352,7 +352,7 @@ const section5Data: section5Item[] = [
     },
     {
         icon: require('./images/s5/10.png'),
-        url: 'https://twitter.com/_martialfarts',
+        url: 'https://twitter.com/_dashred',
     },
     {
         icon: require('./images/s5/11.png'),
