@@ -356,7 +356,7 @@ const section5Data: section5Item[] = [
     },
     {
         icon: require('./images/s5/11.png'),
-        url: 'https://twitter.com/CryptoAfu',
+        url: 'https://twitter.com/Linkys_Sire_',
     },
 ];
 const TSection5 = (forwardRef((props:ChildPropsType, ref:any) => {
