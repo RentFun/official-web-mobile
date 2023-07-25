@@ -352,7 +352,7 @@ const section5Data: section5Item[] = [
     },
     {
         icon: require('./images/s5/10.png'),
-        url: 'https://twitter.com/_dashred',
+        url: 'https://twitter.com/dash123d',
     },
     {
         icon: require('./images/s5/11.png'),
