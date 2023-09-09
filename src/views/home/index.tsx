@@ -57,10 +57,10 @@ const menuLst: menuText[] = [
         url: 'https://mirror.xyz/rentfun.eth',
     },
     {
-        text: 'Join Discord',
+        text: 'Testnet',
         subText: '',
         ac: true,
-        url: 'http://discord.gg/rentfun',
+        url: 'http://testnet.rentfun.io/marketplace',
     }
 ];
 const THead:React.FC<HomePropsType> = () => {
