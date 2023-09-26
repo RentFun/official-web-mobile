@@ -229,7 +229,7 @@ const TSection1 = (forwardRef((props:screenPropsType, ref:any) => {
             <div className="t-sun">
                 <img className="t-logo-center" src={require("./images/s1/logo2.png")} alt=""/>
                 <div className="t-title">Liquidity for NFT Utility</div>
-                <div className="t-title-sub">Rent Original NFTs Through Access Delegation on Arbitrum</div>
+                <div className="t-title-sub">NFT Rental Protocol For Web3 Games</div>
                 <div className="t-icon">
                     <img onClick={openUrl.bind(this, 'https://twitter.com/rentfun_io')} src={require("./images/s1/3.png")} alt=""/>
                     <img onClick={openUrl.bind(this, 'https://github.com/RentFun')}  src={require("./images/s1/2.png")} alt=""/>
