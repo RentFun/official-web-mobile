@@ -389,6 +389,20 @@ const TSection6 = (forwardRef((props:ChildPropsType, ref:any) => {
                 <span className="t-6-title-sub">Learn More</span>
                 <span className="t-arrow"><img src={require("./images/s2/arrow.png")} alt=""/></span>
             </div>
+            <div className='s6-second'>
+                <ul>
+                    <li className='flex s6-second-top'>
+                        <img className="t-img t-img-1" src={require("./images/s6-1/1.png")} alt=""/>
+                        <img className="t-img t-img-2" src={require("./images/s6-1/2.png")} alt=""/>
+                        <img className="t-img t-img-3" src={require("./images/s6-1/3.png")} alt=""/>
+                        <img className="t-img t-img-4" src={require("./images/s6-1/4.png")} alt=""/>
+                    </li>
+                    <li className='flex s6-second-bottom'>
+                        <img className="t-img t-img-5" src={require("./images/s6-1/5.png")} alt=""/>
+                        <img className="t-img t-img-6" src={require("./images/s6-1/6.png")} alt=""/>
+                    </li>
+                </ul>
+            </div>
         </div>
     )
 }));
