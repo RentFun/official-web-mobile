@@ -389,24 +389,35 @@ const TSection6 = (forwardRef((props:ChildPropsType, ref:any) => {
                 <span className="t-6-title-sub">Learn More</span>
                 <span className="t-arrow"><img src={require("./images/s2/arrow.png")} alt=""/></span>
             </div>
-            <div className='s6-second'>
-                <ul>
-                    <li className='flex s6-second-top'>
-                        <img className="t-img t-img-1" src={require("./images/s6-1/1.png")} alt=""/>
-                        <img className="t-img t-img-2" src={require("./images/s6-1/2.png")} alt=""/>
-                        <img className="t-img t-img-3" src={require("./images/s6-1/3.png")} alt=""/>
-                        <img className="t-img t-img-4" src={require("./images/s6-1/4.png")} alt=""/>
-                    </li>
-                    <li className='flex s6-second-bottom'>
-                        <img className="t-img t-img-5" src={require("./images/s6-1/5.png")} alt=""/>
-                        <img className="t-img t-img-6" src={require("./images/s6-1/6.png")} alt=""/>
-                    </li>
-                </ul>
-            </div>
         </div>
     )
 }));
 
+const TSection6Second: React.FC<ChildPropsType> = (props) => {
+    const { animation } = props;
+    return(
+        <div className={`t-section s6-second ${animation ? 'anOpacity' : ''}`} >
+            <img className="t-point" src={require("./images/s7/point.svg").default} alt=""/>
+            <div className='s6-second-box'>
+                <div className='s6-second-cont'>
+                    <h3 className='s6-second-title'>Game Partners</h3>
+                    <ul>
+                        <li className='flex s6-second-top'>
+                            <img  onClick={openUrl.bind(this, 'https://dininhoadventures.com/')} className="t-img t-img-1" src={require("./images/s6-1/1.png")} alt=""/>
+                            <img  onClick={openUrl.bind(this, 'https://thegainlings.io/landing/')} className="t-img t-img-2" src={require("./images/s6-1/2.png")} alt=""/>
+                            <img  onClick={openUrl.bind(this, 'https://lifeverse.gg/')} className="t-img t-img-3" src={require("./images/s6-1/3.png")} alt=""/>
+                            <img  onClick={openUrl.bind(this, 'https://primapes.gg/')}  className="t-img t-img-4" src={require("./images/s6-1/4.png")} alt=""/>
+                        </li>
+                        <li className='flex s6-second-bottom'>
+                            <img  onClick={openUrl.bind(this, 'https://www.kuroro.com/ancients')}  className="t-img t-img-5" src={require("./images/s6-1/5.png")} alt=""/>
+                            <img  onClick={openUrl.bind(this, 'https://legendoferos.com/')}  className="t-img t-img-6" src={require("./images/s6-1/6.png")} alt=""/>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    )
+}  
 
 interface section7Item {
     icon: string,
@@ -547,6 +558,7 @@ const Home:React.FC<HomePropsType> = (props, context) => {
             <TSection4 ref={section4Ref} animation={animation4}/>
             <TSection5 ref={section5Ref} animation={animation5}/>
             <TSection6 ref={section6Ref} animation={animation6}/>
+            <TSection6Second animation={animation7}/>
             <TSection7 animation={animation7}/>
         </div>
     );
