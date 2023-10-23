@@ -108,7 +108,7 @@ const TSectionScreen = (forwardRef((props:screenPropsType, ref:any) => {
             <div className="t-sun">
                 <img className="t-logo-center" src={require("./images/screen/logo.png")} alt=""/>
                 <div style={{ width: `${clientWidth}px` }} className="t-title">Liquidity for <br/> NFT Utility</div>
-                <div style={{ width: `${clientWidth}px` }} className="t-title-sub">NFT Rental Protocol For Web3 Games</div>
+                <div style={{ width: `${clientWidth}px` }} className="t-title-sub">NFT Rental Protocol For Arbitrum Games</div>
                 <div className="t-icon">
                     <img onClick={openUrl.bind(this, 'https://twitter.com/rentfun_io')} src={require("./images/screen/3.png")} alt=""/>
                     <img onClick={openUrl.bind(this, 'https://github.com/RentFun')}  src={require("./images/screen/2.png")} alt=""/>
@@ -417,7 +417,7 @@ const TSection6Second: React.FC<ChildPropsType> = (props) => {
             </div>
         </div>
     )
-}  
+}
 
 interface section7Item {
     icon: string,
